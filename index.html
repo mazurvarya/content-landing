@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigitalDynasty - Business Promotion Experts</title>
+    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200">
+      <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="w-3 h-3 bg-lime-400 rounded-full"></div>
+          <span class="font-bold text-xl">DigitalDynasty</span>
+        </div>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#services" class="text-gray-600 hover:text-black transition-colors">Services</a>
+          <a href="#events" class="text-gray-600 hover:text-black transition-colors">Events</a>
+          <a href="#contact" class="text-gray-600 hover:text-black transition-colors">Contact</a>
+          <button id="applyBtn" class="px-6 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">
+            Apply Now
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-6 py-8 space-y-16">
+      <!-- Hero Section -->
+      <section class="relative bg-black text-white py-20 px-6 rounded-3xl overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+          <div class="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-lime-400 to-transparent rounded-full blur-3xl"></div>
+        </div>
+        <div class="relative max-w-6xl mx-auto">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-3 h-3 bg-lime-400 rounded-full"></div>
+            <span class="text-lime-400 text-sm font-medium">DigitalDynasty</span>
+          </div>
+          <h1 class="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+            We are experts<br />
+            in business promotion<br />
+            on the Internet
+          </h1>
+          <div class="flex flex-wrap gap-4 mb-8">
+            <button class="openFormBtn px-8 py-4 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors">
+              Get Started
+            </button>
+            <button class="openFormBtn px-8 py-4 bg-lime-400 text-black rounded-full font-medium hover:bg-lime-300 transition-colors">
+              Free Consultation
+            </button>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="flex -space-x-2">
+              <div class="w-10 h-10 rounded-full bg-gray-600 border-2 border-black"></div>
+              <div class="w-10 h-10 rounded-full bg-gray-500 border-2 border-black"></div>
+              <div class="w-10 h-10 rounded-full bg-gray-400 border-2 border-black"></div>
+            </div>
+            <p class="text-sm text-gray-400">
+              100+ successful projects<br />
+              with a 95% client retention rate
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature Showcase Section -->
+      <section class="py-16 px-6">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold mb-6">
+              Get results<br />
+              as soon as possible!
+            </h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-8">
+              Our team works quickly to develop a strategy, launch campaigns, and deliver
+              measurable results. Experience professional service and transparent
+              communication at every step.
+            </p>
+            <button class="openFormBtn px-8 py-4 bg-white border-2 border-gray-300 text-black rounded-full font-medium hover:border-lime-400 transition-colors">
+              Schedule Consultation →
+            </button>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16">
+            <div class="bg-lime-400 p-8 rounded-3xl flex items-center justify-center text-center min-h-[200px]">
+              <h3 class="text-2xl md:text-3xl font-bold text-black">WE</h3>
+            </div>
+            <div class="bg-white p-8 rounded-3xl flex items-center justify-center text-center min-h-[200px]">
+              <h3 class="text-2xl md:text-3xl font-bold text-black">PROFESSIONALS</h3>
+            </div>
+            <div class="bg-black p-8 rounded-3xl flex items-center justify-center text-center min-h-[200px]">
+              <h3 class="text-2xl md:text-3xl font-bold text-white">LEADING</h3>
+            </div>
+            <div class="bg-gray-200 p-8 rounded-3xl flex items-center justify-center text-center min-h-[200px]">
+              <h3 class="text-2xl md:text-3xl font-bold text-black">TO RESULTS</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="py-16 px-6">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-4xl font-bold mb-12">Our Services</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- SEO Card -->
+            <div class="bg-black text-white p-8 rounded-3xl relative overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300 serviceCard" data-service="SEO">
+              <div class="absolute top-4 right-4 w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </div>
+              <h3 class="text-3xl font-bold mb-4 mt-8">SEO</h3>
+              <p class="text-sm opacity-80 mb-6">Search Engine Optimization - increase your visibility in search results and attract organic traffic</p>
+              <button class="selectServiceBtn px-6 py-3 bg-black text-white rounded-full text-sm font-medium hover:bg-gray-900 transition-colors flex items-center gap-2 border border-white">
+                Learn More
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- SMM Card -->
+            <div class="bg-lime-400 text-black p-8 rounded-3xl relative overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300 serviceCard" data-service="SMM">
+              <div class="absolute top-4 right-4 w-12 h-12 bg-black bg-opacity-20 rounded-full flex items-center justify-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </div>
+              <h3 class="text-3xl font-bold mb-4 mt-8">SMM</h3>
+              <p class="text-sm opacity-80 mb-6">Social Media Marketing - build your brand presence and engage with your audience on social platforms</p>
+              <button class="selectServiceBtn px-6 py-3 bg-black text-white rounded-full text-sm font-medium hover:bg-gray-900 transition-colors flex items-center gap-2">
+                Learn More
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Content Marketing Card -->
+            <div class="bg-white text-black p-8 rounded-3xl relative overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300 serviceCard" data-service="Content Marketing">
+              <div class="absolute top-4 right-4 w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </div>
+              <h3 class="text-3xl font-bold mb-4 mt-8">Content Marketing</h3>
+              <p class="text-sm opacity-80 mb-6">Create valuable content that attracts and retains your target audience while driving profitable actions</p>
+              <button class="selectServiceBtn px-6 py-3 bg-black text-white rounded-full text-sm font-medium hover:bg-gray-900 transition-colors flex items-center gap-2">
+                Learn More
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Contextual Advertising Card -->
+            <div class="bg-lime-400 text-black p-8 rounded-3xl relative overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300 serviceCard" data-service="Contextual Advertising">
+              <div class="absolute top-4 right-4 w-12 h-12 bg-black bg-opacity-20 rounded-full flex items-center justify-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </div>
+              <h3 class="text-3xl font-bold mb-4 mt-8">Contextual Advertising</h3>
+              <p class="text-sm opacity-80 mb-6">Targeted advertising campaigns that reach your ideal customers at the right time and place</p>
+              <button class="selectServiceBtn px-6 py-3 bg-black text-white rounded-full text-sm font-medium hover:bg-gray-900 transition-colors flex items-center gap-2">
+                Learn More
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Events Section -->
+      <section id="events" class="py-16 px-6 bg-gray-50 rounded-3xl">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex items-start justify-between mb-12">
+            <h2 class="text-4xl font-bold">Events for Business in 2024</h2>
+            <p class="text-sm text-gray-600 max-w-xs">
+              Join our exclusive events and webinars to learn from industry experts
+            </p>
+          </div>
+          <div class="space-y-4">
+            <div class="bg-white p-6 rounded-2xl flex items-center justify-between hover:shadow-lg transition-shadow cursor-pointer group">
+              <div class="flex-1">
+                <h3 class="text-xl font-bold mb-2">Digital Growth</h3>
+                <p class="text-gray-600 text-sm">How to scale your business and increase conversions through digital channels</p>
+              </div>
+              <div class="flex items-center gap-6">
+                <div class="flex items-center gap-2 text-gray-600">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                  <span class="font-medium">12/03/24</span>
+                </div>
+                <button class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-lime-400 transition-colors">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl flex items-center justify-between hover:shadow-lg transition-shadow cursor-pointer group">
+              <div class="flex-1">
+                <h3 class="text-xl font-bold mb-2">Success Exhibition</h3>
+                <p class="text-gray-600 text-sm">Best practices from successful digital campaigns and case studies</p>
+              </div>
+              <div class="flex items-center gap-6">
+                <div class="flex items-center gap-2 text-gray-600">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                  <span class="font-medium">29/05/24</span>
+                </div>
+                <button class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-lime-400 transition-colors">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl flex items-center justify-between hover:shadow-lg transition-shadow cursor-pointer group">
+              <div class="flex-1">
+                <h3 class="text-xl font-bold mb-2">Business Masterclass</h3>
+                <p class="text-gray-600 text-sm">Master the art of digital marketing and business development strategies</p>
+              </div>
+              <div class="flex items-center gap-6">
+                <div class="flex items-center gap-2 text-gray-600">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                  <span class="font-medium">06/06/24</span>
+                </div>
+                <button class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-lime-400 transition-colors">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl flex items-center justify-between hover:shadow-lg transition-shadow cursor-pointer group">
+              <div class="flex-1">
+                <h3 class="text-xl font-bold mb-2">Innovators Forum</h3>
+                <p class="text-gray-600 text-sm">Learn about the latest trends in digital marketing and business innovation</p>
+              </div>
+              <div class="flex items-center gap-6">
+                <div class="flex items-center gap-2 text-gray-600">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                  <span class="font-medium">18/08/24</span>
+                </div>
+                <button class="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-lime-400 transition-colors">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section id="contact" class="py-16 px-6">
+        <div class="max-w-6xl mx-auto bg-black text-white rounded-3xl p-12 text-center relative overflow-hidden">
+          <div class="absolute inset-0 opacity-10">
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-lime-400 to-transparent rounded-full blur-3xl"></div>
+            <div class="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-lime-400 to-transparent rounded-full blur-3xl"></div>
+          </div>
+          <div class="relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+              Subscribe to learn more<br />
+              about how we can help your business
+            </h2>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-2xl mx-auto">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="w-full sm:flex-1 px-6 py-4 bg-white text-black rounded-full focus:outline-none focus:ring-2 focus:ring-lime-400"
+              />
+              <button class="openFormBtn w-full sm:w-auto px-8 py-4 bg-lime-400 text-black rounded-full font-medium hover:bg-lime-300 transition-colors whitespace-nowrap">
+                Get Consultation
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8 px-6 mt-16">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="flex items-center gap-2">
+          <div class="w-3 h-3 bg-lime-400 rounded-full"></div>
+          <span class="font-bold">DigitalDynasty</span>
+        </div>
+        <p class="text-gray-400 text-sm">
+          © 2024 DigitalDynasty. All rights reserved.
+        </p>
+        <div class="flex gap-4">
+          <a href="#" class="text-gray-400 hover:text-lime-400 transition-colors">Privacy</a>
+          <a href="#" class="text-gray-400 hover:text-lime-400 transition-colors">Terms</a>
+          <a href="#" class="text-gray-400 hover:text-lime-400 transition-colors">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Application Form Modal -->
+    <div id="formModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+      <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
+        <button class="closeFormBtn absolute top-6 right-6 w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+
+        <div class="p-8">
+          <h2 class="text-4xl font-bold mb-2">Get Started Today</h2>
+          <p class="text-gray-600 mb-8">
+            Fill out the form below and our team will contact you within 24 hours
+          </p>
+
+          <div id="successMessage" class="hidden mb-6 p-4 bg-lime-400 text-black rounded-2xl">
+            Thank you! Your application has been submitted successfully.
+          </div>
+
+          <div id="errorMessage" class="hidden mb-6 p-4 bg-red-500 text-white rounded-2xl">
+            Something went wrong. Please try again.
+          </div>
+
+          <form id="applicationForm" class="space-y-6">
+            <div>
+              <label class="block text-sm font-medium mb-2">
+                Full Name <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                required
+                class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-lime-400"
+                placeholder="John Doe"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">
+                Email <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="email"
+                name="email"
+                required
+                class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-lime-400"
+                placeholder="john@example.com"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">
+                Phone <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="tel"
+                name="phone"
+                required
+                class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-lime-400"
+                placeholder="+1 (555) 000-0000"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">Company</label>
+              <input
+                type="text"
+                name="company"
+                class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-lime-400"
+                placeholder="Your Company Name"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">
+                Service Interested In <span class="text-red-500">*</span>
+              </label>
+              <select
+                name="service"
+                required
+                class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-lime-400"
+              >
+                <option value="">Select a service</option>
+                <option value="SEO">SEO</option>
+                <option value="SMM">SMM</option>
+                <option value="Content Marketing">Content Marketing</option>
+                <option value="Contextual Advertising">Contextual Advertising</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">Message</label>
+              <textarea
+                name="message"
+                rows="4"
+                class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-lime-400 resize-none"
+                placeholder="Tell us about your project..."
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="w-full px-8 py-4 bg-lime-400 text-black rounded-full font-medium hover:bg-lime-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Submit Application
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="module">
+      import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.4/+esm';
+
+      const SUPABASE_URL = 'https://ordshmpxuouyywoljxub.supabase.co';
+      const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9yZHNobXB4dW91eXl3b2xqeHViIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzExMTYxNzgsImV4cCI6MjA4NjY5MjE3OH0.DKYetBfEAkL5SqTI20RhxHhYgK6zmLmEketcME12JKI';
+
+      const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+      const formModal = document.getElementById('formModal');
+      const applicationForm = document.getElementById('applicationForm');
+      const successMessage = document.getElementById('successMessage');
+      const errorMessage = document.getElementById('errorMessage');
+
+      // Open form buttons
+      document.querySelectorAll('.openFormBtn, #applyBtn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          formModal.classList.remove('hidden');
+        });
+      });
+
+      // Close form button
+      document.querySelector('.closeFormBtn').addEventListener('click', () => {
+        formModal.classList.add('hidden');
+        applicationForm.reset();
+        successMessage.classList.add('hidden');
+        errorMessage.classList.add('hidden');
+      });
+
+      // Close modal when clicking outside
+      formModal.addEventListener('click', (e) => {
+        if (e.target === formModal) {
+          formModal.classList.add('hidden');
+          applicationForm.reset();
+          successMessage.classList.add('hidden');
+          errorMessage.classList.add('hidden');
+        }
+      });
+
+      // Service card click handler
+      document.querySelectorAll('.serviceCard').forEach(card => {
+        card.addEventListener('click', () => {
+          const service = card.dataset.service;
+          const serviceSelect = document.querySelector('select[name="service"]');
+          serviceSelect.value = service;
+          formModal.classList.remove('hidden');
+        });
+      });
+
+      // Form submission
+      applicationForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        successMessage.classList.add('hidden');
+        errorMessage.classList.add('hidden');
+
+        const submitBtn = applicationForm.querySelector('button[type="submit"]');
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Submitting...';
+
+        const formData = new FormData(applicationForm);
+        const data = {
+          name: formData.get('name'),
+          email: formData.get('email'),
+          phone: formData.get('phone'),
+          company: formData.get('company') || '',
+          service: formData.get('service'),
+          message: formData.get('message') || '',
+        };
+
+        try {
+          const { error } = await supabase
+            .from('applications')
+            .insert([data]);
+
+          if (error) throw error;
+
+          successMessage.classList.remove('hidden');
+          applicationForm.reset();
+
+          setTimeout(() => {
+            formModal.classList.add('hidden');
+            successMessage.classList.add('hidden');
+          }, 2000);
+        } catch (error) {
+          console.error('Error submitting application:', error);
+          errorMessage.classList.remove('hidden');
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit Application';
+        }
+      });
+    </script>
+  </body>
+</html>
